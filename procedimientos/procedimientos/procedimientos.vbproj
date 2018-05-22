@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8962B0BA-7B28-4536-AAAA-DB9D76A1298C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>procedimientos.Module1</StartupObject>
+    <StartupObject>procedimientos._3_02_suma_dias</StartupObject>
     <RootNamespace>procedimientos</RootNamespace>
     <AssemblyName>procedimientos</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -68,6 +68,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3_02_suma_dias.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
