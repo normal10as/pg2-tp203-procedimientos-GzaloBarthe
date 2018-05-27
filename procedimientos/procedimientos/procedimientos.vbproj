@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8962B0BA-7B28-4536-AAAA-DB9D76A1298C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>procedimientos._3_02_suma_dias</StartupObject>
+    <StartupObject>procedimientos._3_07_sobrecargada</StartupObject>
     <RootNamespace>procedimientos</RootNamespace>
     <AssemblyName>procedimientos</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="3_02_suma_dias.vb" />
-    <Compile Include="Module1.vb" />
+    <Compile Include="3_01_Sub-Func.vb" />
+    <Compile Include="3_03_Potencias.vb" />
+    <Compile Include="3_04_triangulo.vb" />
+    <Compile Include="3_05_volumn_cilindro.vb" />
+    <Compile Include="3_06_sumatoria_de_cuadrados.vb" />
+    <Compile Include="3_07_sobrecargada.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
